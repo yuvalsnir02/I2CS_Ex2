@@ -35,7 +35,7 @@ public class Map implements Map2D, Serializable{
 
 	@Override
 	public void init(int[][] arr) {
-        if (arr == null) throw new RuntimeException("init(arr): arr is null);
+        if (arr == null) throw new RuntimeException("init(arr): arr is null");
                 if (arr.length == 0) throw new RuntimeException("init(arr): empty array");
                 if (arr[0] ==null || arr[0].length == 0) throw new RuntimeException("init(arr): empty inner array");
 
